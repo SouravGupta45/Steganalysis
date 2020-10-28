@@ -1,7 +1,7 @@
-#Steganalysis
-STEGANALYSIS
 
-Introduction :- 
+# STEGANALYSIS
+
+## Introduction :- 
 Steganography is the practice of concealing a secret message within another, ordinary, message. Commonly, Steganography 
 is used to unobtrusively hide a small message within the noisy regions of a larger image. In this study, we attempt to 
 place a full size color image within another image of the same size. Deep neural networks are simultaneously trained to 
@@ -13,13 +13,13 @@ least significant bits of the carrier image, our approach compresses and distrib
 all of the available bits.
 
 
-Dataset
+## Dataset
 The dataset we used in this implementation is Tiny ImageNet Visual Recognition Challenge. 
 It can be downloaded from web and extracted . The following figure shows some sample images of the dataset.
 
 
 
-Model Architecture
+## Model Architecture
 
  
 
@@ -49,7 +49,7 @@ Basic Experimentation has been done by changing the activation function of the a
 performance of the model . All other parameters such as convnet architecture , no. of epochs and the optimizer function are 
 kept constant.
 
-Conclusion:
+## Conclusion:
 By Comparing the output result and the loss curve for each of the mentioned Activation functions , we can safely conclude 
 that Relu activation perform much better than the other activation function and the model learns much faster for same 
 no. of epochs . Sigmoid Shows a much good result than tanh which was a bit surprising but after seeing a bunch of papers on it
