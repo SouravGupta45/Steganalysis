@@ -12,10 +12,13 @@ achieved and explore extensions. Unlike many popular steganographic methods that
 least significant bits of the carrier image, our approach compresses and distributes the secret image's representation across
 all of the available bits.
 
+![alt text](https://github.com/SouravGupta45/Steganalysis/blob/master/Output/data.png "Preview Image")
 
-## Dataset
-The dataset we used in this implementation is Tiny ImageNet Visual Recognition Challenge. 
-It can be downloaded from web and extracted . The following figure shows some sample images of the dataset.
+### Dataset
+## The dataset we used in this implementation is Tiny ImageNet Visual Recognition Challenge. 
+## It can be downloaded from web and extracted . The following figure shows some sample images of the dataset.
+
+![alt text](https://github.com/SouravGupta45/Steganalysis/blob/master/Output/Dataset.png "Dataset")
 
 
 
@@ -50,8 +53,18 @@ performance of the model . All other parameters such as convnet architecture , n
 kept constant.
 
 ## Conclusion:
+
 By Comparing the output result and the loss curve for each of the mentioned Activation functions , we can safely conclude 
 that Relu activation perform much better than the other activation function and the model learns much faster for same 
 no. of epochs . Sigmoid Shows a much good result than tanh which was a bit surprising but after seeing a bunch of papers on it
 , I found that though tanh provide much nonlinearity to the model it is sometimes unstable for a neural network and could
 lead to vanishing gradient or unpredictable loss value which could be seen here by a sudden rise in loss value at epoch =120.
+
+## OUTPUTS: 
+
+# LOSS vs EPOCH 
+
+![alt text](https://github.com/SouravGupta45/Steganalysis/blob/master/Output/download%20(1).png)
+
+# FINAL OUTPUT
+![alt text](https://github.com/SouravGupta45/Steganalysis/blob/master/Output/output.png)
